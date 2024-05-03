@@ -1,0 +1,18 @@
+You need to have 2 VMs installed on QEMU/KVM in order to perform the experiments performed in this project
+
+`analyze.sh`
+This script needs to be run when monitoring the KSM stats.
+
+`cpu_util_pages_to_scan.sh`
+This gives the average CPU utilization for different values of `pages_to_scan` in KSM configuration.
+
+`cpu_util_sleep_ms.sh`
+This gives the average CPU utilization for different values of `sleep_millisecs` in KSM configuration.
+
+
+`generate_cpp.py`
+Generates the cpp files we are using to compile in our custom workload.
+
+
+Link to all the plots:
+https://docs.google.com/spreadsheets/d/1b-yHA93459dPUNKbKA0Uj7hK_GtcERKRbl5VKM5DbQk/edit?usp=sharing
